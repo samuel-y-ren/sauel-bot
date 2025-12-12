@@ -15,3 +15,5 @@ INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 32ddf339c976ae118cf89e9477bc6d88).
 INFO:__main__:sauel-bot#7171 starting 2025-12-11 22:13:24.808981
 INFO:__main__:sauel-bot#7171 tasks complete 2025-12-11 22:13:24.936003
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token

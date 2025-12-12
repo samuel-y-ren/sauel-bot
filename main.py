@@ -20,7 +20,7 @@ NEXT_MEET=os.getenv("NEXT_MEET")
 ROOWEE=os.getenv("ROOWEE")
 SAUEL=os.getenv("SAUEL")
 SAUEL_COORDS=list(map(float,os.getenv("SAUEL_COORDS").split(',')))
-ROOWEE_COORDS=list(map(float,os.getenv("ROOWEE_COORDS".split(','))))
+ROOWEE_COORDS=list(map(float,os.getenv("ROOWEE_COORDS").split(',')))
 
 intents=discord.Intents.none()
 intents.messages=True # run on message received

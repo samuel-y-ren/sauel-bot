@@ -17,3 +17,8 @@ INFO:__main__:sauel-bot#7171 starting 2025-12-11 22:13:24.808981
 INFO:__main__:sauel-bot#7171 tasks complete 2025-12-11 22:13:24.936003
 WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
 INFO:discord.client:logging in using static token
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9f89c57b9e05f61ab0582f6775bf20ba).
+INFO:__main__:sauel-bot#7171 starting 2025-12-11 22:40:59.459016
+INFO:__main__:sauel-bot#7171 tasks complete 2025-12-11 22:40:59.660706

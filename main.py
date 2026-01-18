@@ -52,7 +52,7 @@ def weather_report(c: tuple[float, float]) -> str:
         em=[sti[j] for j in sti if j in i[4]] # lists of emojis to add
         sm=[pti[j] for j in pti if j in i[4]]
 
-        sf=f"{i[3]}%" if len(sm) else "" # if there's some kind of precipitation, add the percent chance
+        sf=f" {i[3]}%" if len(sm) else "" # if there's some kind of precipitation, add the percent chance
 
 
         wo.append(f"{str(i[0]).rjust(2)}|{str(i[1]).rjust(3)}C|{str(i[2]).rjust(2)} kph|{''.join(em+sm)}{sf}")
@@ -73,9 +73,9 @@ async def on_message(message:discord.Message):
     if message.content=="!meow" and message.author!=bot.user:
         await message.channel.send("meow")
 
-@tasks.loop(time=datetime.time(hour=8, minute=0, tzinfo=eastern))
+@tasks.loop(time=datetime.time(hour=7, minute=0, tzinfo=eastern))
 async def morning():
-    # weather at 8 am each morning
+    # weather at 7 am each morning
     logger.info(f"weather report at {datetime.datetime.now()}")
 
     woo=weather_report(SAUEL_COORDS)

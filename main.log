@@ -22,3 +22,2438 @@ INFO:discord.client:logging in using static token
 INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9f89c57b9e05f61ab0582f6775bf20ba).
 INFO:__main__:sauel-bot#7171 starting 2025-12-11 22:40:59.459016
 INFO:__main__:sauel-bot#7171 tasks complete 2025-12-11 22:40:59.660706
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-12 12:59:59.329244+00:00 but needed to sleep until 2025-12-12 08:00:00-05:00. Sleeping until 2025-12-12 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-12 08:00:00.002421
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-13 12:59:58.342681+00:00 but needed to sleep until 2025-12-13 08:00:00-05:00. Sleeping until 2025-12-13 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-13 08:00:00.002305
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 9f89c57b9e05f61ab0582f6775bf20ba.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 97d63e3b8f6eb40d561b6c1131b2922d).
+INFO:__main__:sauel-bot#7171 starting 2025-12-13 23:53:11.533026
+INFO:__main__:sauel-bot#7171 tasks complete 2025-12-13 23:53:11.676102
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 38711dde1472e6684eb53a711a179ee7).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 00:10:38.228266
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ab0ee051f235fb79788735db17d779fe).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 00:27:56.762974
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c35c1a6002cb5bdca0b702eb0f7f36bc).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 00:45:17.707361
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b85be4279dc682915cf6c7ccf51259c1).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 01:01:50.615066
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cef734bb9ece2bb3b28b7a8bebbfd709).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 01:17:54.313155
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1f667557282535773273d1e3a54b055a).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 01:32:54.809044
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 33.8s behind.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b993429bce5c29bd36289a5c00a53c12).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 01:49:58.882545
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 43c83173a56dc38433c2f43f08cf844a).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 01:56:30.277518
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 39.4s behind.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9e999119a9f833c6b8000440005efbd1).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 02:13:56.791229
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4802661ecbc5382cabe34b80d746b93d).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 02:32:13.573108
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: afa9d707e6ed2f454f52fa249db016cb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 02:48:10.881598
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1f09c43b87c4758fd47843467078ecfa).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 03:06:06.654993
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 41956575db6205d506f84c3c752e4e98).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 03:22:10.472272
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: bdb31769e65740101f20b5a5defa4d14).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 03:39:45.695403
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cf8ee6bac929c74f0cacaf9028ad8616).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 03:57:14.374830
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 35229eee642f485b56e5921264a73fe0).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 04:14:08.464972
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 645ac410ccda9dd5042a90482f3fcd30).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 04:30:52.546659
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 47d6024483d8fa8372a003eafccc5aa7).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 04:46:43.287207
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6167b79f02476d6b17ad5b1c20aa69f7).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 05:02:40.223126
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 95bf6ab5331f3446348b309ef6ad33eb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 05:34:57.707768
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0a8462601fa23195bd937d9a64c6683d).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 05:35:39.212446
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 31325772a3992dcc5cf4a98ecdd01d54).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 05:51:21.985804
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: acc698729212de51f9bc29c846c9ee0f).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 06:01:32.991670
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 150074b66a6fc8682fdd7662c4eda6bb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 06:18:12.597888
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7cf008d12c6c70b3d1390f4792880260).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 06:34:50.706154
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a80c7884045e59c698462148073595a9).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 06:52:24.585847
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 64c4622e4ec7809f12a6bc90f6a4222e).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 07:10:37.713705
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 977ad12ef855a651d7962bd53d729227).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 07:28:15.476408
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 49f242a24490f5bbc8fd07bab26ee8fa).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 07:46:32.199102
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b45a1370c2ad7939761446337b078371).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 08:00:05.585267
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 5fac31330dfbce65980c06f2f1167951).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 08:02:12.628606
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a367946911df5d836525e3de158a4100).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 08:34:34.114827
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1236ff19b3357337fffef93256d2f4bb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 08:35:15.598088
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 2f5aafbea16a7eabff41c591aa05fe42).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 08:53:16.942303
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cc6a3dc772945243f570db1cf94dcfcb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 09:03:32.283475
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ec0ab5a668e92d110e4eb3514677773b).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 09:20:15.398710
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 34b981a404588518bc713435d16eef5b).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 09:38:39.484571
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7cd4d398590fbbe1083b96b184ab666a).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 09:56:37.576727
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0583e110f5bed0930b48a2d820288b68).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 10:04:34.312074
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 48f64d43e2a1566d1ccc4634d3bdba04).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 10:21:50.898301
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 09513c674abdc3c80f1bbc38436ff0de).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 10:37:34.441175
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0ff4725f32d541ef0bb8bf5e2acb07df).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 11:01:52.443112
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 256e22ded699b759c8faf25493f7f0bb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 11:05:44.171634
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6d6dc8534f997efcb2a9d261167301fb).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 11:22:42.296728
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7249618eb093e554b1b0cbfd94fef9d2).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 11:39:46.852138
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6ba506d1ea79a4b55af22d7a7e926af9).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 11:56:10.857933
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b142e8746e0992b5f0ea1fc4e4c10b6c).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 12:06:23.265248
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: cc703b835f4f9882549e4394dd5b2bf1).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 12:23:08.814671
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1820d7dea64ae7c0d16332bb8c4b4b03).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 12:39:05.434029
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7ebc5f39c1fa4a6746a1825d5f377f23).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 12:54:55.734375
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b06fb381575fe2c039b8b56af671074d).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 13:07:24.852191
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3cdfc149f6d39dc2b252cb3fbff99ac1).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 13:23:55.376384
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 296253540395da6443347489ff3ac953).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 13:39:56.200411
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 31204a85f5d5ab5eab0c3f5d935f686c).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 13:57:47.296267
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6481d3b26cd700f6c320d19de44140bc).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 14:08:29.539358
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a5e7086ece2ae81ff4c269f27fb15239).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 14:42:05.519195
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: acb5a0277a15d893542144e6a6f4fc63).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 14:42:47.030893
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d509142e9022a0e319d2447aaf95d543).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 14:59:17.032973
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 946d65e6d7609eb803975f6394b801e5).
+INFO:__main__:sauel-bot#7171 starting 2025-12-14 15:01:52.671934
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:__main__:weather report at 2025-12-14 22:09:07.305583
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-15 12:59:59.317582+00:00 but needed to sleep until 2025-12-15 08:00:00-05:00. Sleeping until 2025-12-15 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-15 08:00:00.002672
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-16 12:59:58.317470+00:00 but needed to sleep until 2025-12-16 08:00:00-05:00. Sleeping until 2025-12-16 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-16 08:00:00.002422
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-17 12:59:58.266452+00:00 but needed to sleep until 2025-12-17 08:00:00-05:00. Sleeping until 2025-12-17 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-17 08:00:00.002487
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-18 12:59:58.316359+00:00 but needed to sleep until 2025-12-18 08:00:00-05:00. Sleeping until 2025-12-18 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-18 08:00:00.002359
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-19 12:59:58.364327+00:00 but needed to sleep until 2025-12-19 08:00:00-05:00. Sleeping until 2025-12-19 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-19 08:00:00.002367
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-20 12:59:58.338744+00:00 but needed to sleep until 2025-12-20 08:00:00-05:00. Sleeping until 2025-12-20 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-20 08:00:00.002436
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-21 12:59:58.279639+00:00 but needed to sleep until 2025-12-21 08:00:00-05:00. Sleeping until 2025-12-21 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-21 08:00:00.002730
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-22 12:59:58.371510+00:00 but needed to sleep until 2025-12-22 08:00:00-05:00. Sleeping until 2025-12-22 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-22 08:00:00.002381
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 946d65e6d7609eb803975f6394b801e5.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 2d0bf7f872ec50871b8b414b90578d70).
+INFO:__main__:sauel-bot#7171 starting 2025-12-23 01:55:41.154967
+INFO:__main__:sauel-bot#7171 tasks complete 2025-12-23 01:55:41.302745
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-23 12:59:59.606581+00:00 but needed to sleep until 2025-12-23 08:00:00-05:00. Sleeping until 2025-12-23 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-23 08:00:00.002511
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-24 12:59:58.316334+00:00 but needed to sleep until 2025-12-24 08:00:00-05:00. Sleeping until 2025-12-24 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-24 08:00:00.002401
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-25 12:59:58.318760+00:00 but needed to sleep until 2025-12-25 08:00:00-05:00. Sleeping until 2025-12-25 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-25 08:00:00.002474
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-26 12:59:58.281551+00:00 but needed to sleep until 2025-12-26 08:00:00-05:00. Sleeping until 2025-12-26 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-26 08:00:00.002418
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-27 12:59:58.314625+00:00 but needed to sleep until 2025-12-27 08:00:00-05:00. Sleeping until 2025-12-27 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-27 08:00:00.002427
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-28 12:59:58.323948+00:00 but needed to sleep until 2025-12-28 08:00:00-05:00. Sleeping until 2025-12-28 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-28 08:00:00.002370
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-29 12:59:58.294418+00:00 but needed to sleep until 2025-12-29 08:00:00-05:00. Sleeping until 2025-12-29 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-29 08:00:00.002399
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-30 12:59:58.300087+00:00 but needed to sleep until 2025-12-30 08:00:00-05:00. Sleeping until 2025-12-30 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-30 08:00:00.002793
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2025-12-31 12:59:58.262711+00:00 but needed to sleep until 2025-12-31 08:00:00-05:00. Sleeping until 2025-12-31 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2025-12-31 08:00:00.002354
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-01 12:59:58.348640+00:00 but needed to sleep until 2026-01-01 08:00:00-05:00. Sleeping until 2026-01-01 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-01 08:00:00.002382
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-02 12:59:58.284263+00:00 but needed to sleep until 2026-01-02 08:00:00-05:00. Sleeping until 2026-01-02 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-02 08:00:00.002617
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-03 12:59:58.282486+00:00 but needed to sleep until 2026-01-03 08:00:00-05:00. Sleeping until 2026-01-03 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-03 08:00:00.002586
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-04 12:59:58.320060+00:00 but needed to sleep until 2026-01-04 08:00:00-05:00. Sleeping until 2026-01-04 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-04 08:00:00.002439
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-05 12:59:58.296202+00:00 but needed to sleep until 2026-01-05 08:00:00-05:00. Sleeping until 2026-01-05 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-05 08:00:00.002346
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-06 12:59:58.316606+00:00 but needed to sleep until 2026-01-06 08:00:00-05:00. Sleeping until 2026-01-06 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-06 08:00:00.002404
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-07 12:59:58.248740+00:00 but needed to sleep until 2026-01-07 08:00:00-05:00. Sleeping until 2026-01-07 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-07 08:00:00.002412
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-08 12:59:58.334224+00:00 but needed to sleep until 2026-01-08 08:00:00-05:00. Sleeping until 2026-01-08 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-08 08:00:00.002398
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 2d0bf7f872ec50871b8b414b90578d70.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: fce7a3b776b6eb35d0953ee0a8c86544).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 09:14:08.132553
+INFO:__main__:sauel-bot#7171 tasks complete 2026-01-08 09:14:08.269662
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 33bc393e220cdc5fc21c1dd6118d7294).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 09:30:14.597516
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3bb4fbe1b64bdc9d9e99c22e2b093b05).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 09:46:44.153036
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 206d44083db821ae5efb414147628d4f).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 10:04:10.677948
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3434657c9119a41b2261eb089bba2860).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 10:20:09.103508
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 25f352b63443f3ca67b2ba516af005bf).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 10:36:38.894513
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 939d8eab94b5abba17deeffe9849c66d).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 11:02:21.033275
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 0c6f155fdaa08d386cb461f19d1d7f2f).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 11:16:00.543741
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 70b845e2e3c20de66357a0a4bd44c851).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 11:34:17.078018
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: aec9c5ded3723fa8a4805cb63d0a1fbf).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 11:51:30.868131
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: acf0023de9b44441f407909c71de7e09).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 12:08:15.628900
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 819ac753ed82b7d728dab9bbe3276d8e).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 12:16:45.031033
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 241c4b4876192f2b13a07799351fd91b).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 12:34:49.470995
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ad6ece37087b00e238cc4ddcfb50d559).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 12:50:41.853882
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c139f2dc5745151738dfa9b50ba0471d).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 13:03:21.084489
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: fdc16c8dad258658760ab88cbedfc802).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 13:17:49.404136
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3a3be090992bab81c58a61f3f490aaf4).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 13:35:35.283208
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 1600fca2b6a1f753513b2a721047f6d0).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 13:51:44.508517
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 9073bfae6ed2ce2d2c05421faddc04ed).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 14:08:35.485442
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 685ea5afe15076069bcdcb7fbe0cf5e2).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 14:18:52.921185
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ad874b255144187613d279701cce827f).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 14:35:28.963045
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 511031245f286f76d6b04fa6ef43fdac).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 14:53:13.756740
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: a7213e0f89a6249fa2010ac7f4a7b6bd).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 15:10:35.938933
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: db2fcb033df9629609a33ba69ad36820).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 15:19:56.791633
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 53407b803d8fdcce1d09576baaf7dba8).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 15:35:41.750123
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 6369b733793a484486f74f36f0b8e50c).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 15:53:43.707948
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7d7e9c3f5c6d92233aba50af85608a97).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 16:04:36.419063
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 5a9a6afe67146fe9ac708f90ceacdc58).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 16:21:00.370259
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: aceca8f765d527a0e65ffa6ea81f6f47).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 16:37:20.017581
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7200b6c6785313a511d872b96605158b).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 16:53:52.258225
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: b5698bda3b4ea3061bb072a764262531).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 17:10:45.052776
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: c02c262962f513fbb501bd8457b72380).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 17:22:03.177931
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 681635e6fba4e7aa20c57fe630c72ef3).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 17:38:17.178543
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 61a0a74de9ca98a0a5a681d143bc84fd).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 17:54:12.245048
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3e9e07483cb140fbcf11d16b8c04fdd1).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 18:12:08.856956
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 77204acf9644ddd18f1812be51fd7be9).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 18:22:43.627412
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8b224bdcf0591de2eb6618e0b54d75b6).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 18:39:58.475138
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d7890419565ecaa714085544bbf49731).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 18:52:43.916079
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 32f410ee7a2304a099283b0797a303c0).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 19:10:51.486798
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 618f1afe02edec19a70ed85ebc099937).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 19:23:46.832661
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8bb3ca18dddf5c6e834c9559460173b5).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 19:40:25.809190
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 303a75e92619dac95e217ee639262a6c).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 19:56:30.557552
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d3585888638c7feb8282ba5244a9be4e).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 20:13:39.150475
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 7e7be0592a3812320acbe543e7fd22a2).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 20:24:51.120333
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 8a05e927b5ff543e2c0c353ee615ef44).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 20:41:32.695525
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: be85f5a8810039354a43f044bc2c0097).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 20:57:59.531075
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 640d67b4db2257ddd8924a5c69423b18).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 21:15:35.681402
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: aa3756e684f6084c3bda68c49962eb45).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 21:25:54.633296
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 878205d28384615af09421e83b10d47d).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 21:41:35.426806
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 32.0s behind.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 827276c2a226f055b31dcb661a365f4a).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 21:59:36.097779
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 2fcc1b671dfaaf158fec122fb741620f).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 22:23:02.093824
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ad664fb9d44e4d10babca190554c5098).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 22:23:43.637043
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 727e67d68ef2e0294e7af967e9b921a0).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 22:26:57.316341
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 39.3s behind.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: d4c71cd59473840653ff70fc515b5041).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 22:44:59.525429
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: ab33a77310c18f5e11e7404b131f8d28).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 23:03:08.224989
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+INFO:discord.gateway:Shard ID None session has been invalidated.
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 3d5e5413229994d1ab859bec6092c0c3).
+INFO:__main__:sauel-bot#7171 starting 2026-01-08 23:21:30.230937
+ERROR:discord.client:Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 504, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 91, in on_ready
+    morning.start()
+    ~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 407, in start
+    raise RuntimeError('Task is already launched and is not completed.')
+RuntimeError: Task is already launched and is not completed.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 4caead9a0ec33c4d70d0cb20e72fc694).
+INFO:__main__:sauel-bot#7171 starting 2026-01-09 00:22:47.586378
+INFO:__main__:sauel-bot#7171 tasks complete 2026-01-09 00:22:47.750865
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-09 12:59:59.540069+00:00 but needed to sleep until 2026-01-09 08:00:00-05:00. Sleeping until 2026-01-09 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-09 08:00:00.002433
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-10 12:59:58.398187+00:00 but needed to sleep until 2026-01-10 08:00:00-05:00. Sleeping until 2026-01-10 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-10 08:00:00.002426
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-11 12:59:58.330560+00:00 but needed to sleep until 2026-01-11 08:00:00-05:00. Sleeping until 2026-01-11 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-11 08:00:00.002452
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-12 12:59:58.359097+00:00 but needed to sleep until 2026-01-12 08:00:00-05:00. Sleeping until 2026-01-12 08:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-12 08:00:00.002383
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 4caead9a0ec33c4d70d0cb20e72fc694.
+WARNING:discord.client:PyNaCl is not installed, voice will NOT be supported
+INFO:discord.client:logging in using static token
+INFO:discord.gateway:Shard ID None has connected to Gateway (Session ID: 310e15291cd44426af6592ed69bc26fe).
+INFO:__main__:sauel-bot#7171 starting 2026-01-12 23:31:05.194101
+INFO:__main__:sauel-bot#7171 tasks complete 2026-01-12 23:31:05.322745
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-13 11:59:59.495484+00:00 but needed to sleep until 2026-01-13 07:00:00-05:00. Sleeping until 2026-01-13 07:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-13 07:00:00.002419
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 40 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 50 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+WARNING:discord.gateway:Shard ID None heartbeat blocked for more than 60 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/main.py", line 95, in <module>
+    bot.run(TOKEN)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/client.py", line 929, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 712, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 683, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 2042, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+
+ERROR:discord.ext.tasks:Handling exception in internal background task morning. Retrying in 1.63s
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/discord/ext/tasks/__init__.py", line 246, in _loop
+    await self.coro(*args, **kwargs)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 84, in morning
+    woo=weather_report(ROOWEE_COORDS)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 45, in weather_report
+    ws = get_weather_info(c)
+  File "/Users/sauel/projects/sauel-bot/main.py", line 35, in get_weather_info
+    p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/sauel/projects/sauel-bot/.venv/lib/python3.13/site-packages/requests/models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:__main__:weather report at 2026-01-14 06:59:58.355219
+ERROR:asyncio:Unclosed connection
+client_connection: Connection<ConnectionKey(host='gateway-us-east1-b.discord.gg', port=443, is_ssl=True, ssl=True, proxy=None, proxy_auth=None, proxy_headers_hash=None)>
+INFO:__main__:weather report at 2026-01-14 07:00:06.693716
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-15 11:59:58.305454+00:00 but needed to sleep until 2026-01-15 07:00:00-05:00. Sleeping until 2026-01-15 07:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-15 07:00:00.002566
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 15.7s behind.
+WARNING:discord.gateway:Can't keep up, shard ID None websocket is 15.7s behind.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-16 11:59:58.361635+00:00 but needed to sleep until 2026-01-16 07:00:00-05:00. Sleeping until 2026-01-16 07:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-16 07:00:00.002505
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+WARNING:discord.ext.tasks:Clock drift detected for task morning. Woke up at 2026-01-17 11:59:58.329792+00:00 but needed to sleep until 2026-01-17 07:00:00-05:00. Sleeping until 2026-01-17 07:00:00-05:00 again to correct clock
+INFO:__main__:weather report at 2026-01-17 07:00:00.002361
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.
+INFO:discord.gateway:Shard ID None has successfully RESUMED session 310e15291cd44426af6592ed69bc26fe.

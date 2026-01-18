@@ -44,10 +44,17 @@ pti={"rain":"🌧️", "shower":"🌧️", "snow":"❄️", "storm":"⛈️"}
 def weather_report(c: tuple[float, float]) -> str:
     ws = get_weather_info(c)
     wo = []
+    low_temp = 1000000
+    high_temp = -1000000
+    high_wind = 0
     for i in ws:
         i[1]=round((i[1]-32)*5/9) # F -> C
         i[2]=round(i[2]*1.609344) # mph -> kph
         i[4]=i[4].lower() # lowercase
+
+        low_temp = min(low_temp, i[1])
+        high_temp = max(high_temp, i[1])
+        high_wind = max(high_wind, i[2])
 
         em=[sti[j] for j in sti if j in i[4]] # lists of emojis to add
         sm=[pti[j] for j in pti if j in i[4]]
@@ -57,14 +64,32 @@ def weather_report(c: tuple[float, float]) -> str:
 
         wo.append(f"{str(i[0]).rjust(2)}|{str(i[1]).rjust(3)}C|{str(i[2]).rjust(2)} kph|{''.join(em+sm)}{sf}")
 
-        if (i[1]<=-10): # -10C
+        if (i[1]<=-5): # -5C
             wo.append("🚨🚨WEEWOO🚨🚨 COLD")
         if (i[2]>=15): # 15kph
             wo.append("🚨🚨WEEWOO🚨🚨 WIMDY")
         if (len(sm)): # precipitation
             wo.append("🚨🚨WEEWOO🚨🚨 PISS")
 
-    return '\n'.join(wo)
+    if low_temp == 1000000:
+        low_temp = '-'
+    else:
+        low_temp = str(low_temp)
+
+    if high_temp == -1000000:
+        high_temp = '-'
+    else:
+        high_temp = str(high_temp)
+
+    high_wind = str(high_wind)
+
+    summary=[]
+    summary.append(f" LOW TEMP: { low_temp.rjust(3)}C")
+    summary.append(f"HIGH TEMP: {high_temp.rjust(3)}C")
+    summary.append(f"HIGH WIMD: {high_wind.rjust(2)} kph")
+    summary.append("")
+
+    return '\n'.join(summary + wo)
 
 
 
@@ -73,7 +98,7 @@ async def on_message(message:discord.Message):
     if message.content=="!meow" and message.author!=bot.user:
         await message.channel.send("meow")
 
-@tasks.loop(time=datetime.time(hour=8, minute=0, tzinfo=eastern))
+@tasks.loop(time=datetime.time(hour=7, minute=0, tzinfo=eastern))
 async def morning():
     # weather at 8 am each morning
     logger.info(f"weather report at {datetime.datetime.now()}")

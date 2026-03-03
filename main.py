@@ -20,7 +20,8 @@ eastern = zoneinfo.ZoneInfo("America/New_York")
 
 load_dotenv()
 TOKEN=os.getenv("TOKEN")
-CHANNEL=os.getenv("CHANNEL")
+WEATHER_CHANNEL=os.getenv("WEATHER_CHANNEL")
+DINNER_CHANNEL=os.getenv("DINNER_CHANNEL")
 NEXT_MEET=os.getenv("NEXT_MEET")
 ROOWEE=os.getenv("ROOWEE")
 SAUEL=os.getenv("SAUEL")
@@ -33,7 +34,9 @@ intents.message_content=True # access content
 intents.guilds=True # access server information
 bot=commands.Bot(command_prefix='!',intents=intents)
 
-sc=0 # channel to send things in (not initialized now)
+weather_c = None # channel to send things in (not initialized now)
+dinner_c = None
+
 
 def get_weather_info(c: tuple[float, float]) -> list:
     r=requests.get(f"https://api.weather.gov/points/{c[0]},{c[1]}")
@@ -161,21 +164,22 @@ async def on_message(message:discord.Message):
     msg = message.content
     if msg=="!meow" and message.author!=bot.user:
         await message.channel.send("meow")
-    choice = None
-    for i in range(6):
-        if msg in dinner_abbr[i]:
-            choice = dinner_sites[i]
-            break
-    if (choice is not None):
-        await message.channel.send("logged today's choice as " + dinner_sites[i])
-        td = dt.date(dt.now()).isoformat()
-        d = None
-        with open(dinner_dir + td, 'r') as fp:
-            d = json.loads(fp.read())
-        d["choice"] = choice
-        with open(dinner_dir + td, 'w') as fp:
-            json.dump(d, fp)
-        logger.info(f"logged choice as {choice}, at time {dt.now()}")
+    if message.channel == dinner_c:
+        choice = None
+        for i in range(6):
+            if msg in dinner_abbr[i]:
+                choice = dinner_sites[i]
+                break
+        if (choice is not None):
+            await message.channel.send("logged today's choice as " + dinner_sites[i])
+            td = dt.date(dt.now()).isoformat()
+            d = None
+            with open(dinner_dir + td, 'r') as fp:
+                d = json.loads(fp.read())
+            d["choice"] = choice
+            with open(dinner_dir + td, 'w') as fp:
+                json.dump(d, fp)
+            logger.info(f"logged choice as {choice}, at time {dt.now()}")
 
 @tasks.loop(time=datetime.time(hour=7, minute=0, tzinfo=eastern))
 async def morning():
@@ -183,18 +187,18 @@ async def morning():
     logger.info(f"weather report at {dt.now()}")
 
     woo=weather_report(SAUEL_COORDS)
-    await sc.send(f"<@{SAUEL}>```"+woo+"```")
+    await weather_c.send(f"<@{SAUEL}>```"+woo+"```")
 
     woo=weather_report(ROOWEE_COORDS)
-    await sc.send(f"<@{ROOWEE}>```"+woo+"```")
+    await weather_c.send(f"<@{ROOWEE}>```"+woo+"```")
 
 @tasks.loop(time=datetime.time(hour=17, minute=0, tzinfo=eastern))
 async def dinner():
     logger.info(f"dinner report at {dt.now()}")
     d = dinner_report()
-    await sc.send(f"<@{SAUEL}> DINNAUR")
+    await dinner_c.send(f"<@{SAUEL}> DINNAUR")
     for i in d:
-        await sc.send(i+'\n'+d[i])
+        await dinner_c.send(i+'\n'+d[i])
     td = dt.date(dt.now()).isoformat()
 
     with open(dinner_dir + td, 'w') as fp:
@@ -202,13 +206,14 @@ async def dinner():
 
 @bot.event
 async def on_ready():
-    global sc
+    global weather_c
+    global dinner_c
     logger.info(f"{bot.user} starting {dt.now()}")
     morning.start()
     dinner.start()
-    sc = await bot.fetch_channel(CHANNEL)
+    weather_c = await bot.fetch_channel(WEATHER_CHANNEL)
+    dinner_c = await bot.fetch_channel(DINNER_CHANNEL)
     logger.info(f"{bot.user} tasks complete {dt.now()}")
     
 if __name__ == "__main__":
     bot.run(TOKEN)
-    # d = dinner_report()

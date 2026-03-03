@@ -1,12 +1,17 @@
+
 import discord
 from discord.ext import tasks, commands
 import os
 from dotenv import load_dotenv
+from datetime import datetime as dt
 import datetime
 import zoneinfo
 import requests
 from dateutil import parser
 import logging
+from bs4 import BeautifulSoup, Comment
+import re
+import json
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename="main.log", level=logging.INFO)
@@ -33,7 +38,7 @@ sc=0 # channel to send things in (not initialized now)
 def get_weather_info(c: tuple[float, float]) -> list:
     r=requests.get(f"https://api.weather.gov/points/{c[0]},{c[1]}")
     p=requests.get(r.json()["properties"]["forecastHourly"]).json()["properties"]["periods"]
-    td=datetime.datetime.now(parser.parse(p[0]["startTime"]).tzinfo).date()
+    td=dt.now(parser.parse(p[0]["startTime"]).tzinfo).date()
     l=[i for i in p if parser.parse(i["startTime"]).date()==td] # filter returns for info on the current day
     return [[parser.parse(i["startTime"]).hour, i["temperature"], int(i["windSpeed"][:-4]), i["probabilityOfPrecipitation"]["value"], i["shortForecast"]] for i in l]
     #                                                           strip trailing " mph" ^^^                               text description of weather ^^^
@@ -91,17 +96,91 @@ def weather_report(c: tuple[float, float]) -> str:
 
     return '\n'.join(summary + wo)
 
+def extract_items(html: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
 
+    for tag in soup(["script", "style", "noscript"]):
+        tag.extract()
+
+    for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
+        comment.extract()
+
+    for tag in soup.find_all(style=True):
+        if any(h in tag["style"].lower() for h in ["display:none", "visibility:hidden"]):
+            tag.extract()
+
+    parts = re.split(r' {2,}', re.sub(r'(\\t|\\n)', '', soup.get_text(separator=" ", strip=True)))
+    parts = parts[parts.index("Dinner Specials"):]
+    match = [i for i,x in enumerate(parts) if re.fullmatch("FOOD ALLERGEN WARNING.*|late night|Late Night", x)]
+    parts = parts[:match[0]]
+    parts = [i for i in parts if not re.fullmatch(r"\d+.*", i) and "nutrition" not in i]
+
+    last_category = None
+    cat = dict()
+    for i in parts:
+        if (i.lower() == i and i.count(' ') < 4):
+            last_category = i
+            if (i not in cat):
+                cat[i] = []
+        elif (last_category is not None):
+            cat[last_category].append(i)
+    
+    return cat
+
+dinner_link = "https://mit.cafebonappetit.com/cafe/"
+dinner_sites = ["the-howard-dining-hall-at-maseeh", "new-vassar" , "baker", "simmons", "next", "mccormick"]
+dinner_abbr = ["mM", "vV", "bB", "sS", "nN", "cC"]
+hide_categories = ["grill", "salad", "condiment", "beverage", "topping", "action", "coffee", "tea", "sushi"]
+hide_weekday_categories = ["dessert", "cream"]
+dinner_dir = "dinner/"
+def dinner_report() -> dict:
+    ret = dict()
+    for st in dinner_sites:
+        r = requests.get(dinner_link + st)
+        items = extract_items(str(r.content))
+        skipped_categories = []
+        real_s = dict()
+        for i in items:
+            u = True
+            for j in hide_categories + hide_weekday_categories:
+                if j in i:
+                    u = False
+            if (u):
+                real_s[i] = items[i]
+            else:
+                skipped_categories.append(i)
+        ls = ["skipped categories: " + ", ".join(skipped_categories)]
+        for i in real_s:
+            ls.append(i + '\n' + ", ".join(real_s[i]))
+        ret[st] = '\n'.join(ls)
+    return ret
+    
 
 @bot.event
 async def on_message(message:discord.Message):
-    if message.content=="!meow" and message.author!=bot.user:
+    msg = message.content
+    if msg=="!meow" and message.author!=bot.user:
         await message.channel.send("meow")
+    choice = None
+    for i in range(6):
+        if msg in dinner_abbr[i]:
+            choice = dinner_sites[i]
+            break
+    if (choice is not None):
+        await message.channel.send("logged today's choice as " + dinner_sites[i])
+        td = dt.date(dt.now()).isoformat()
+        d = None
+        with open(dinner_dir + td, 'r') as fp:
+            d = json.loads(fp.read())
+        d["choice"] = choice
+        with open(dinner_dir + td, 'w') as fp:
+            json.dump(d, fp)
+        logger.info(f"logged choice as {choice}, at time {dt.now()}")
 
 @tasks.loop(time=datetime.time(hour=7, minute=0, tzinfo=eastern))
 async def morning():
     # weather at 7 am each morning
-    logger.info(f"weather report at {datetime.datetime.now()}")
+    logger.info(f"weather report at {dt.now()}")
 
     woo=weather_report(SAUEL_COORDS)
     await sc.send(f"<@{SAUEL}>```"+woo+"```")
@@ -109,12 +188,27 @@ async def morning():
     woo=weather_report(ROOWEE_COORDS)
     await sc.send(f"<@{ROOWEE}>```"+woo+"```")
 
+@tasks.loop(time=datetime.time(hour=17, minute=0, tzinfo=eastern))
+async def dinner():
+    logger.info(f"dinner report at {dt.now()}")
+    d = dinner_report()
+    await sc.send(f"<@{SAUEL}> DINNAUR")
+    for i in d:
+        await sc.send(i+'\n'+d[i])
+    td = dt.date(dt.now()).isoformat()
+
+    with open(dinner_dir + td, 'w') as fp:
+        json.dump(d, fp)
+
 @bot.event
 async def on_ready():
     global sc
-    logger.info(f"{bot.user} starting {datetime.datetime.now()}")
+    logger.info(f"{bot.user} starting {dt.now()}")
     morning.start()
+    dinner.start()
     sc = await bot.fetch_channel(CHANNEL)
-    logger.info(f"{bot.user} tasks complete {datetime.datetime.now()}")
+    logger.info(f"{bot.user} tasks complete {dt.now()}")
     
-bot.run(TOKEN)
+if __name__ == "__main__":
+    bot.run(TOKEN)
+    # d = dinner_report()
